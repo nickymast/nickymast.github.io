@@ -1,0 +1,90 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #A48162;
+  margin-bottom: 60px;
+}
+
+.wood{
+  background-image: url("../img/wood3.jpg");
+  /*opacity: 0.4;*/
+}
+
+.wood-text{
+  width: 100%;
+  height: 10em;
+  padding-top: 2em;
+  position: relative;
+/*  margin-top: 1em;*/
+  text-align: center;
+  line-height: 3.25em;
+}
+
+#name {
+  font-family: 'Slabo 27px', serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: #FF6600;
+}
+
+
+#tagline {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: normal;
+  font-size: 30px;
+  color: #FFD119;
+}
+
+.about{
+  font-family: 'Architects Daughter', cursive;
+  font-weight: normal;
+  font-size: 18px;
+  color: #270C04;
+  padding: 1em 3em;
+}
+
+.projects {
+  color: #270C04;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  height: 40px;
+  background-color: rgba(114, 76, 56, 0.5);
+  color: #D9BDA9;
+  padding-top: 10px;
+  margin-top: 20px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+.footer a {
+  color: #D9BDA9;
+  text-decoration: none
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
