@@ -60,11 +60,34 @@ body {
   padding: 1em 3em;
 }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 20px;
+}
+
 .projects {
   color: #270C04;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+}
+
+.projects img{
+  border-radius: 20px;
+  border-color: #562F1D;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#project-title {
+  font-family: 'Architects Daughter', cursive;
+  margin: 5px;
+  font-size: 22px;
+}
+
+.badge {
+  background-color: #562F1E;
 }
 
 .footer {
