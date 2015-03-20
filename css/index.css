@@ -9,6 +9,16 @@ body {
   margin-bottom: 60px;
 }
 
+body a {
+  color: #795A41;
+  text-decoration: none
+}
+
+body a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .wood {
   position: relative;
   text-align: center;
@@ -60,12 +70,6 @@ body {
   padding: 1em 3em;
 }
 
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-  margin-top: 20px;
-}
-
 .projects {
   color: #270C04;
   font-weight: bold;
@@ -88,6 +92,14 @@ body {
 
 .badge {
   background-color: #562F1E;
+}
+
+.github {
+  text-align: left;
+}
+
+.github p {
+  font-size: 16px;
 }
 
 .footer {
