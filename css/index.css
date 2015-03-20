@@ -96,6 +96,8 @@ body a:hover {
 
 .github {
   text-align: left;
+  margin-left: -75px;
+  padding-top: 46px;
 }
 
 .github p {
